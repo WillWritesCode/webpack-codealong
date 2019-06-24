@@ -1,3 +1,4 @@
 {
-  "directory": "app/bower_components"
+  "directory": "app/bower_components",
+  "ca": "C:\Users\u0146\Documents\Certs\newworld.webfilter.barracuda.pem"
 }
