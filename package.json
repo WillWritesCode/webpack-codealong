@@ -1,7 +1,10 @@
 {
   "name": "solitaire",
   "private": true,
-  "dependencies": {},
+  "dependencies": {
+    "nodemon": "^1.19.1",
+    "source-map-support": "^0.5.12"
+  },
   "devDependencies": {
     "angular": "1.2.28",
     "angular-loader": "1.2.28",
@@ -25,7 +28,7 @@
   "scripts": {
     "build": "webpack",
     "watch": "npm run build -- --watch",
-    "start": "webpack-dev-server --open",
+    "start": "nodemon -w webpack.config.js -x webpack-dev-server -- --port 8081",
     "pretest": "npm install",
     "test": "karma start karma.conf.js",
     "test-single-run": "karma start karma.conf.js --single-run"
