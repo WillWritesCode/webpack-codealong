@@ -6,7 +6,7 @@
     "source-map-support": "^0.5.12"
   },
   "devDependencies": {
-    "angular": "1.2.28",
+    "angular": "1.8.0",
     "angular-loader": "1.2.28",
     "angular-mocks": "1.2.28",
     "angular-route": "1.2.28",
